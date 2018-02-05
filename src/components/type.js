@@ -2,7 +2,7 @@ import styled, { css, injectGlobal } from 'react-emotion'
 import GatsbyLink from 'gatsby-link'
 
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif:400,700');
+  @import url('//fonts.googleapis.com/css?family=PT+Sans|PT+Serif:400,700');
 
 	html {
 		font-size: 10pt;

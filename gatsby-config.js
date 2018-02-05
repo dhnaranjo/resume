@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Wow buddy!',
   },
+  pathPrefix: '/resume',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
