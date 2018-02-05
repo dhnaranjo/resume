@@ -4,10 +4,10 @@ work:
     title: Software Engineer
     startDate: 10/01/2017
     endDate: 01/08/2018
-    summary: A corporate events ecommerce and event management platform built in Rails and React. Delivered on a one-week Agile sprint cycle. Responsible for full breadth of feature work, from design and planning, to backend models and API, to frontend interfaces.
+    summary: A corporate events ecommerce and event management platform built in Rails and React. Delivered on a one-week Agile sprint cycle.
     bullets:
-      - Built on demad image processor, reducing inventory page size up to 80%
-      - Created organizations first AWS Lambda serverless microservice
+      - Built on demand image processor, reducing inventory page size up to 80%
+      - Created organization's first AWS Lambda serverless microservice
       - Introduced Selenium-based integration tests
   - organization: Wasteland, Dispose and Discover
     title: Curator
@@ -20,7 +20,7 @@ work:
     endDate: 12/11/2016
     summary: Design and fabrication consultancy producing award winning installations and props for marketing, television, theater, and events.
     bullets:
-      - Produced concept drawings, 3D models, and blueprints for installations
+      - Produced concept drawings, 3D models, and blueprints
       - Programmed Arduino and Node driven interactive experiences
       - Directed teams of up to 20 incredible fabricators
 education:

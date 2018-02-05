@@ -210,7 +210,7 @@ export default ({ data }) => {
         <div>
           <Body>
             <H2>I'm Desmond Naranjo, designer turned developer</H2>
-            <Summary className={css`margin: 1em 0;`}>{summary}</Summary>
+            <Summary className={css`margin: 0em 0;`}>{summary}</Summary>
             <Contacts />
           </Body>
         </div>
