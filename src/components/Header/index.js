@@ -1,33 +1,19 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import styled, { css } from 'react-emotion'
+
+import { H1, H4, Link, A } from '../../components/type'
+
+const headerCss = css`
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+`
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
-    </div>
-  </div>
+  <header className={headerCss}>
+    <H1>
+    </H1>
+  </header>
 )
 
 export default Header

@@ -5,12 +5,17 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "date-fns": "^1.29.0",
+    "emotion": "^9.0.0-2",
+    "emotion-server": "^8.0.12",
     "gatsby": "^1.9.158",
     "gatsby-link": "^1.6.34",
+    "gatsby-plugin-emotion": "^1.1.11",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-source-filesystem": "^1.5.15",
     "gatsby-transformer-yaml": "^1.5.14",
-    "react-helmet": "^5.2.0"
+    "react-emotion": "^8.0.12",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^2.2.7"
   },
   "keywords": [
     "gatsby"

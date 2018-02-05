@@ -1,5 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { injectGlobal} from 'react-emotion'
+
+injectGlobal`
+  * {
+  }
+`
 
 export default ({data}) => {
   console.log(data)
@@ -16,16 +22,6 @@ export const query = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    allDataYaml {
-      edges {
-        node {
-          education {
-            school
-            degree
-          }
-        }
       }
     }
   }
